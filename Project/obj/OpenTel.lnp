@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "..\obj\system_stm32f10x.o" "..\obj\core_cm3.o" "..\obj\startup_stm32f10x_md.o" "..\obj\stm32f10x_rcc.o" "..\obj\misc.o" "..\obj\stm32f10x_adc.o" "..\obj\stm32f10x_exti.o" "..\obj\stm32f10x_flash.o" "..\obj\stm32f10x_gpio.o" "..\obj\stm32f10x_rtc.o" "..\obj\stm32f10x_spi.o" "..\obj\stm32f10x_tim.o" "..\obj\stm32f10x_usart.o" "..\obj\stm32f10x_dma.o" "..\obj\stm32f10x_i2c.o" "..\obj\stm32f10x_sdio.o" "..\obj\main.o" "..\obj\stm32f10x_it.o" "..\obj\led.o" "..\obj\adc.o" "..\obj\spi.o" "..\obj\encode.o" "..\obj\mlib.o" "..\obj\uart.o" "..\obj\eeprom.o" "..\obj\button.o" "..\obj\stickknob.o" "..\obj\beep.o" "..\obj\timer.o" "..\obj\stm3210e_eval.o" "..\obj\usmart.o" "..\obj\usmart_config.o" "..\obj\usmart_str.o" "..\obj\bk242x.o" "..\obj\bk242x_sub.o" "..\obj\rfpackage.o" 
+--strict --scatter "..\obj\OpenTel.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\lst\OpenTel.map" -o ..\obj\OpenTel.axf
